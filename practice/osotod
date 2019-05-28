@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"> <!-- Sets UTF-8 as standard for text -->
+    <title>The Great Upheaval</title> <!-- Title as displayed on tab -->
+    <style>
+      a{
+        text-decoration:underline;
+      }
+      .mainline{
+      color: red
+      }
+      #chart{
+        color: yellow;
+        font: italic 15px monospace, sans-serif;
+        text-align: center;
+      }
+      body{
+        background-color: black;
+      }
+      p{
+        color: white;
+        font: italic 14px/25px Georgia, serif;
+      }
+      th{
+        color: purple;
+        font-size: 25px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <h1 class="mainline"><em>The Great Upheaval</em></h1> <!-- Heading. Goes h1 to h6, reducing in size as number grows -->
+    <h3>A brief history of the struggles of <em>OSO</em> and <em>TOD</em></h3>
+    <a target="_blank" href="http://www.wikipedia.org/">
+      <!-- Target="_blank" Opens Wiki in new tab if you click Osos picture -->
+      <img src="pics/oso.jpg" alt="OSO, holder of keys" height="200">
+      <!--src tag that begins without a slash calls in reference to the page -->
+    </a>
+    <img src="/home/bread/practice/pics/tod.jpg" alt="TOD, molder of yips" height="200">
+      <!-- src tag begins wtih slash, referening whole domain -->
+    <h5 class="mainline">By<br>Betch Moon Tuvy</h5>
+
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#origin">Origins</a></li>
+      <!-- href here is an internal linking, moving the focus to the target
+      of "origin". The # makes it point on the page itself, not another page
+      within the domain -->
+      <li><a href="#meeting">First Encounters</a></li>
+      <li><a href="#battle1">The First Battle</a></li>
+    <h4 id="overview" class="mainline">Introduction and Overview
+      <table id="chart">
+        <!-- Begin table -->
+        <thead>
+          <!-- Begin table headers -->
+          <tr>
+            <!-- Create row -->
+            <th>Name</th>
+              <!--Populate first column of row with Name -->
+            <th>Title</th>
+              <!-- Second column -->
+            <th>Alignment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Begin table body -->
+          <tr>
+            <!-- Create row -->
+            <td>Tod</td>
+              <!-- Column 1 data -->
+            <td>Master of Yap</td>
+              <!-- Column 2, etc.. -->
+            <td>Chaotic Good</td>
+          </tr>
+          <tr>
+            <td>Oso</td>
+            <td>Scryer of Brrowps</td>
+            <td>True Neutral</td>
+          </tr>
+        </tbody>
+      </table>
+
+    <h4 id="origin" class="mainline">The Origins</h4>
+    <!-- id linking to previous href, note that no # is used declaring it -->
+    <p>Lorem Ipsum all that jazz <br>
+      Making sure this internal linking is working <br>
+      Don't forget the hashtag in the href <br>
+      Ya dumb dumb.
+    </p>
+    <h4 id="meeting" class="mainline">The Meeting</h4>
+    <p>Hip hop skip skop <br>
+    Should probably wait to make hotkeys <br>
+    Just memorize this shit so you don't<br>
+    Think about it</p>
+    <h4 id="battle1" class="mainline">The Battle Begins</h4>
+    <p>This is where the beat drops</p>
+  </body>
+</html>
